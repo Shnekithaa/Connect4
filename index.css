@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-home-container {
+  background-image: url("https://img.freepik.com/premium-vector/beautifil-palm-trees-illustration_118124-3603.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.logo-1 {
+  height: 30%;
+  width: 30%;
+  border-radius: 50px;
+  margin-top: 7%;
+}
+.input-1 {
+  background-color: black;
+  border-radius: 14px;
+  border-width: 0;
+  height: 60px;
+  width: 240px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+::placeholder{
+  color: white;
+  -webkit-text-stroke: 0.5px #feaa2d;
+}
+
+.input-2 {
+  background-color: black;
+  border-radius: 14px;
+  border-width: 0;
+  height: 60px;
+  width: 180px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 0.5px #de0e64;
+  font-size: 16px;
+}
+i {
+  font-size: 50px;
+  margin-left: 0.5%;
+  color: #feaa2d;
+}
+.bottom-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 650px){
+  .input-1{
+    height: 50px;
+    width: 180px;
+    font-size: 14px;
+  }
+  .input-2{
+    height: 50px;
+    width: 140px;
+    font-size: 14px;
+  }
+  i{
+    font-size: 40px;
+  }
+  .logo-1{
+    margin-top: 30%;
+    width: 50%;
+    margin-bottom: 5%;
+  }
+}
+@media(max-width: 350px){
+  .input-1{
+    height: 50px;
+    width: 180px;
+    font-size: 14px;
+  }
+  .input-2{
+    height: 50px;
+    width: 140px;
+    font-size: 14px;
+  }
+  i{
+    font-size: 40px;
+  }
+  .logo-1{
+    margin-top: 50%;
+    width: 50%;
+    margin-bottom: 5%;
+  }
+}

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.instruction-bg-container{
+    background-image: url("https://res.cloudinary.com/dwyhszkac/image/upload/v1697522759/summer-landscape-background-zoom_52683-42067_cy9awd.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instruction-container{
+    height: 70%;
+    width: 70%;
+    background-color: #6FB114;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-width: 0;
+    font-size: x-large;
+    text-shadow: 2px 2px 2px gray;
+    font-weight: bold;
+}
+li{
+    margin-bottom: 2.5%;
+}
+i{
+    align-self: flex-start;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: 40px;
+    color: #FEAA2D;
+}
+
+@media(max-width: 1246px){
+    .instruction-container{
+        font-size: large;
+        padding: 10px 40px;
+    }
+    li{
+        margin-bottom: 4%;
+    }
+}
+
+@media(max-width: 800px){
+    .instruction-container{
+        font-size: small;
+        padding: 0 20px;
+    }
+    li{
+        margin-bottom: 5%;
+    }
+}
+@media(max-width: 275px){
+    .instruction-container{
+        font-size: x-small;
+        padding: 0 20px;
+    }
+    li{
+        margin-bottom: 5%;
+    }
+}

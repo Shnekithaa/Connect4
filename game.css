@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-bg-container{
+    background-image: url("https://res.cloudinary.com/dwyhszkac/image/upload/v1697522759/summer-landscape-background-zoom_52683-42067_cy9awd.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 5px solid navy;
+    height: 70px;
+    width: 70px;
+    margin: 8px;
+}
+.red-piece{
+    background-color: red;
+}
+.yellow-piece{
+    background-color: yellow;
+}

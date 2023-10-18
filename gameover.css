@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gameover-bg-container{
+    background-image: url("https://img.freepik.com/premium-vector/beautifil-palm-trees-illustration_118124-3603.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.leaderboard-container{
+    background-color: #FEAA2D;
+    border-radius: 14px;
+    border-width: 0;
+    padding: 20px 70px;
+    color: black;
+    font-family: itim;
+    margin: 2% 0;
+}
+.player-details{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-family: jacques francois shadow;
+    font-size: 75px;
+    text-shadow: 4px 4px white;
+    color: black;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+button{
+    margin-top: 1%;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    -webkit-text-stroke: 0.5px #de0e64;
+}
+@media(max-width: 600px) {
+    .gameover-bg-container{
+        justify-content: center;
+    }
+    .heading{
+        font-size: x-large;
+    }
+    .sub-heading{
+        font-size: large;
+        margin: 3% 0;
+    }
+    .leaderboard-container{
+        padding: 10px 40px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 3% 0;
+    }
+}
