@@ -1,3 +1,16 @@
+let backgroundSound = new Audio("./assets/bgm.mp3");
+backgroundSound.loop = true;
+backgroundSound.play();
+
+let gameBody = document.getElementById("gameBody");
+let coinSound = new Audio("./assets/coinsound.mp3");
+gameBody.addEventListener('click', playSound);
+
+function playSound(){
+    coinSound.pause();
+    coinSound.currentTime = 0;
+    coinSound.play();
+}
 
 var playerRed = "R";
 var playerYellow = "Y";
@@ -127,6 +140,9 @@ function setWinner(r, c){
     }else if(board[r][c] == playerYellow){
         location.href = "gameover.html";
         localStorage.setItem("winner", "Player2");
+    }else{
+        location.href = "gameover.html";
+        localStorage.setItem("winner", "It's a tie");
     }
     gameOver = true;
 }
