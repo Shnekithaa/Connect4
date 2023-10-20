@@ -25,8 +25,12 @@
 }
 .player-details{
     margin-top: 10%;
-    display: flex;
-    justify-content: space-between;
+}
+.home-icon{
+    font-size: x-large;
+    color: #FEAA2D;
+    -webkit-text-stroke: 1px black;
+    margin-top: 1%;
 }
 .heading{
     font-family: jacques francois shadow;
